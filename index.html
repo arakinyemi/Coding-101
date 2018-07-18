@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js"></script>
+</head>
+<body> 
+ <h2 id="Welcome" class="white-text"> Welcome to my Number Guessing Game</h2>
+ <div id="Instructions">
+     <p class="white-text">Follow these instructons to play</p>
+     <ol class="yellow-text">
+         <li>Guess a number from 1-10</li>
+         <li>Click on play</li>
+         <li>If your guess is correct,you win.If your guess is wrong,you lose</li>
+    </ol>
+ </div>
+<div id="play">
+    <form name="form1" action="#" onsubmit="playgame()">
+        <input required id="number" type="number"/>
+        <button id="button" type="submit">Play</button>
+    </form>
+    <h3 id="win" class="green-text"></h3>
+    <h4 id="lose" class="red-text"></h4>
+    <p class="white-text"><strong id="tries"></strong> attempts</p> 
+</div>
+<div id="bio">
+<p class=white-text>Enter personal information below</p>
+
+<form action="#" name="form2">
+<input required type="text" placeholder="First name"/><br>
+<input required type="text" placeholder="Last name"/><br>
+<input  required type="number" placeholder="Age"/><br>
+<input type="text" placeholder="Address"/><br>
+<button id= "button-2" type="submit">Done</button>
+</form>
+</div>
+
+</body>
+</html>
