@@ -3,17 +3,17 @@ body{
 }
 #Welcome{
 /* color:White; */
-text-align: center;
+/* text-align: center; */
 }
 #Instructions{
     /* color:white; */
-    text-align: center;
+    /* text-align: center; */
 
 }
 ol{list-style: none;
 }
 #play{
-    text-align: center;
+    /* text-align: center; */
     /* background-color: white; */
 }
 #button{
@@ -33,9 +33,12 @@ ol{list-style: none;
     color:red;
 }
 #bio{
-    text-align:center;
+    /* text-align:center; */
 }
 #button-2{
    background-color:red;
    border-radius:5px;
+}
+.center{
+    text-align:center;
 }

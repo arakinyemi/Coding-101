@@ -9,8 +9,8 @@
     <script src="index.js"></script>
 </head>
 <body> 
- <h2 id="Welcome" class="white-text"> Welcome to my Number Guessing Game</h2>
- <div id="Instructions">
+ <h2 id="Welcome" class="white-text center"> Welcome to my Number Guessing Game</h2>
+ <div id="Instructions" class="center ">
      <p class="white-text">Follow these instructons to play</p>
      <ol class="yellow-text">
          <li>Guess a number from 1-10</li>
@@ -18,7 +18,7 @@
          <li>If your guess is correct,you win.If your guess is wrong,you lose</li>
     </ol>
  </div>
-<div id="play">
+<div id="play" class="center">
     <form name="form1" action="#" onsubmit="playgame()">
         <input required id="number" type="number"/>
         <button id="button" type="submit">Play</button>
@@ -27,7 +27,7 @@
     <h4 id="lose" class="red-text"></h4>
     <p class="white-text"><strong id="tries"></strong> attempts</p> 
 </div>
-<div id="bio">
+<div id="bio"class="center">
 <p class=white-text>Enter personal information below</p>
 
 <form action="#" name="form2">
@@ -38,6 +38,6 @@
 <button id= "button-2" type="submit">Done</button>
 </form>
 </div>
-
+<a  id="about" href="about.html">Click here for more info</a>
 </body>
 </html>
