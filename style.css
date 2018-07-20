@@ -1,21 +1,21 @@
 body{
     background-color:black;
 }
-#Welcome{
+/* #Welcome{ */
 /* color:White; */
 /* text-align: center; */
-}
-#Instructions{
+/* } */
+/* #Instructions{ */
     /* color:white; */
     /* text-align: center; */
 
-}
+/* } */
 ol{list-style: none;
 }
-#play{
+/* #play{ */
     /* text-align: center; */
     /* background-color: white; */
-}
+/* } */
 #button{
     background-color: yellow;
     border-radius: 5px;
@@ -32,9 +32,9 @@ ol{list-style: none;
 .red-text{
     color:red;
 }
-#bio{
+/* #bio{ */
     /* text-align:center; */
-}
+/* } */
 #button-2{
    background-color:red;
    border-radius:5px;
