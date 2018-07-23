@@ -1,0 +1,44 @@
+body{
+    background-color:black;
+}
+/* #Welcome{ */
+/* color:White; */
+/* text-align: center; */
+/* } */
+/* #Instructions{ */
+    /* color:white; */
+    /* text-align: center; */
+
+/* } */
+ol{list-style: none;
+}
+/* #play{ */
+    /* text-align: center; */
+    /* background-color: white; */
+/* } */
+#button{
+    background-color: yellow;
+    border-radius: 5px;
+}
+.white-text{
+    color:white;
+}
+.yellow-text{
+    color:yellow;
+}
+.green-text{
+    color:green;
+}
+.red-text{
+    color:red;
+}
+/* #bio{ */
+    /* text-align:center; */
+/* } */
+#button-2{
+   background-color:red;
+   border-radius:5px;
+}
+.center{
+    text-align:center;
+}
